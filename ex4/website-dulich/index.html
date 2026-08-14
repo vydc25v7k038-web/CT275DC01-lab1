@@ -6,401 +6,466 @@
 
     <meta
         name="viewport"
-        content="width=device-width, initial-scale=1"
-    >
+        content="width=device-width, initial-scale=1">
 
-    <title>Du Lịch Bụi | Khám phá Việt Nam</title>
+    <title>Du lịch Bụi</title>
 
-    <!-- Bootstrap 5 -->
     <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-    >
-
-    <!-- Bootstrap Icons -->
-    <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    >
-
-    <!-- CSS riêng -->
-    <link
-        rel="stylesheet"
-        href="css/style.css"
-    >
+        rel="stylesheet">
+	<link
+		rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-
 <body>
+    <!-- ================= HEADER ================= -->
 
-
-<!-- =====================================================
-     NAVBAR
-===================================================== -->
-
-<nav
-    class="navbar navbar-expand-lg fixed-top"
-    id="mainNavbar"
->
-
-    <div class="container">
-
-        <a
-            class="navbar-brand"
-            href="#"
-        >
-
-            <img
-                src="img/logo.jpg"
-                alt="Logo"
-                class="logo"
-            >
-
-            <span>
-                DU LỊCH BỤI
-            </span>
-
-        </a>
-
-
-        <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarMenu"
-        >
-
-            <span class="navbar-toggler-icon"></span>
-
-        </button>
-
-
-        <div
-            class="collapse navbar-collapse"
-            id="navbarMenu"
-        >
-
-            <ul class="navbar-nav ms-auto">
-
-                <li class="nav-item">
-                    <a
-                        class="nav-link active"
-                        href="#home"
-                    >
-                        Trang chủ
-                    </a>
-                </li>
-
-                <li class="nav-item">
-                    <a
-                        class="nav-link"
-                        href="#gioithieu"
-                    >
-                        Giới thiệu
-                    </a>
-                </li>
-
-                <li class="nav-item">
-                    <a
-                        class="nav-link"
-                        href="#diadiem"
-                    >
-                        Điểm đến
-                    </a>
-                </li>
-
-                <li class="nav-item">
-                    <a
-                        class="nav-link"
-                        href="#why"
-                    >
-                        Dịch vụ
-                    </a>
-                </li>
-
-                <li class="nav-item">
-                    <a
-                        class="nav-link"
-                        href="#lienhe"
-                    >
-                        Liên hệ
-                    </a>
-                </li>
-
-            </ul>
-
-        </div>
-
-    </div>
-
-</nav>
-
-
-
-<!-- =====================================================
-     HERO / CAROUSEL
-===================================================== -->
-
-<section
-    id="home"
-    class="hero"
->
-
-    <div
-        id="travelCarousel"
-        class="carousel slide carousel-fade"
-        data-bs-ride="carousel"
-    >
-
-        <!-- Indicators -->
-
-        <div class="carousel-indicators">
-
-            <button
-                type="button"
-                data-bs-target="#travelCarousel"
-                data-bs-slide-to="0"
-                class="active"
-            ></button>
-
-            <button
-                type="button"
-                data-bs-target="#travelCarousel"
-                data-bs-slide-to="1"
-            ></button>
-
-            <button
-                type="button"
-                data-bs-target="#travelCarousel"
-                data-bs-slide-to="2"
-            ></button>
-
-        </div>
-
-
-        <div class="carousel-inner">
-
-
-            <!-- Slide 1 -->
-
-            <div class="carousel-item active">
-
-                <img
-                    src="img/1.jpg"
-                    class="hero-image"
-                    alt="Du lịch"
-                >
-
-                <div class="hero-overlay"></div>
-
-
-                <div class="hero-content">
-
-                    <p class="hero-subtitle">
-                        ✦ WELCOME TO VIETNAM
-                    </p>
-
-                    <h1>
-                        Khám phá
-                        <span>những miền đất mới</span>
-                    </h1>
-
-                    <p class="hero-text">
-                        Đi để trải nghiệm, đi để khám phá
-                        và lưu giữ những khoảnh khắc đáng nhớ.
-                    </p>
-
-
-                    <div class="hero-buttons">
-
-                        <a
-                            href="#diadiem"
-                            class="btn btn-warning"
-                        >
-                            Khám phá ngay
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-
-                        <a
-                            href="#gioithieu"
-                            class="btn btn-outline-light"
-                        >
-                            Tìm hiểu thêm
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- Slide 2 -->
-
-            <div class="carousel-item">
-
-                <img
-                    src="img/2.jpg"
-                    class="hero-image"
-                    alt="Điểm đến"
-                >
-
-                <div class="hero-overlay"></div>
-
-
-                <div class="hero-content">
-
-                    <p class="hero-subtitle">
-                        ✦ AMAZING DESTINATIONS
-                    </p>
-
-                    <h1>
-                        Những điểm đến
-                        <span>đáng nhớ</span>
-                    </h1>
-
-                    <p class="hero-text">
-                        Cùng chúng tôi khám phá những
-                        vùng đất tuyệt đẹp của Việt Nam.
-                    </p>
-
-
-                    <div class="hero-buttons">
-
-                        <a
-                            href="#diadiem"
-                            class="btn btn-warning"
-                        >
-                            Xem điểm đến
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- Slide 3 -->
-
-            <div class="carousel-item">
-
-                <img
-                    src="img/3.jpg"
-                    class="hero-image"
-                    alt="Trải nghiệm"
-                >
-
-                <div class="hero-overlay"></div>
-
-
-                <div class="hero-content">
-
-                    <p class="hero-subtitle">
-                        ✦ TRAVEL & EXPERIENCE
-                    </p>
-
-                    <h1>
-                        Bắt đầu hành trình
-                        <span>của bạn</span>
-                    </h1>
-
-                    <p class="hero-text">
-                        Hãy xách ba lô lên và bắt đầu
-                        chuyến phiêu lưu ngay hôm nay.
-                    </p>
-
-
-                    <div class="hero-buttons">
-
-                        <a
-                            href="#lienhe"
-                            class="btn btn-warning"
-                        >
-                            Liên hệ ngay
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <!-- Prev -->
-
-        <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#travelCarousel"
-            data-bs-slide="prev"
-        >
-
-            <span class="carousel-control-prev-icon"></span>
-
-        </button>
-
-
-        <!-- Next -->
-
-        <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#travelCarousel"
-            data-bs-slide="next"
-        >
-
-            <span class="carousel-control-next-icon"></span>
-
-        </button>
-
-    </div>
-
-
-    <!-- Thông tin nhanh -->
-
-    <div class="hero-stats">
+    <header class="site-header">
 
         <div class="container">
 
-            <div class="row">
+            <div class="header-inner">
 
-                <div class="col-md-4 stat-item">
+                <a href="#" class="logo">
+                    <img
+                        src="img/logo.jpg"
+                        alt="Du lịch Bụi"
+                    >
+                </a>
+                <nav class="navbar navbar-expand-lg">
 
-                    <i class="bi bi-geo-alt-fill"></i>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#mainMenu"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                    <div>
-                        <strong>20+</strong>
-                        <small>Điểm đến</small>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="mainMenu"
+                    >
+
+                        <ul class="navbar-nav ms-auto">
+
+                            <li class="nav-item">
+                                <a
+                                    href="index.html"
+                                    class="nav-link active"
+                                >
+                                    Trang chủ
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    href="service.html"
+                                    class="nav-link"
+                                >
+                                    Dịch vụ
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    href="about.html"
+                                    class="nav-link"
+                                >
+                                    Về chúng tôi
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    href="faq.html"
+                                    class="nav-link"
+                                >
+                                    FAQ
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    href="contact.html"
+                                    class="nav-link contact-link"
+                                >
+                                    Liên hệ
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </nav>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="hero">
+
+        <div class="container-fluid p-0">
+
+            <div
+                id="travelCarousel"
+                class="carousel slide carousel-fade"
+                data-bs-ride="carousel"
+            >
+
+                <div class="carousel-indicators">
+
+                    <button
+                        type="button"
+                        data-bs-target="#travelCarousel"
+                        data-bs-slide-to="0"
+                        class="active"
+                    ></button>
+
+                    <button
+                        type="button"
+                        data-bs-target="#travelCarousel"
+                        data-bs-slide-to="1"
+                    ></button>
+
+                    <button
+                        type="button"
+                        data-bs-target="#travelCarousel"
+                        data-bs-slide-to="2"
+                    ></button>
+
+                </div>
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+
+                        <img
+                            src="img/1.jpg"
+                            alt="Du lịch"
+                        >
+
+                        <div class="hero-overlay"></div>
+
+                        <div class="hero-content">
+
+                            <span>
+                                DU LỊCH BỤI
+                            </span>
+
+                            <h1>
+                                Đi để thấy<br>
+                                thế giới rộng lớn
+                            </h1>
+
+                            <p>
+                                Khám phá những điểm đến tuyệt đẹp
+                                và tạo nên những kỷ niệm đáng nhớ.
+                            </p>
+
+                            <a
+                                href="#destinations"
+                                class="hero-button"
+                            >
+                                Khám phá ngay
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item">
+
+                        <img
+                            src="img/2.jpg"
+                            alt="Khám phá"
+                        >
+
+                        <div class="hero-overlay"></div>
+
+                        <div class="hero-content">
+
+                            <span>
+                                KHÁM PHÁ
+                            </span>
+
+                            <h1>
+                                Những hành trình<br>
+                                đầy cảm hứng
+                            </h1>
+
+                            <p>
+                                Mỗi chuyến đi là một câu chuyện
+                                mà bạn sẽ không bao giờ quên.
+                            </p>
+
+                            <a
+                                href="#destinations"
+                                class="hero-button"
+                            >
+                                Xem điểm đến
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item">
+
+                        <img
+                            src="img/3.jpg"
+                            alt="Trải nghiệm"
+                        >
+
+                        <div class="hero-overlay"></div>
+
+                        <div class="hero-content">
+
+                            <span>
+                                TRẢI NGHIỆM
+                            </span>
+
+                            <h1>
+                                Sống trọn từng<br>
+                                khoảnh khắc
+                            </h1>
+
+                            <p>
+                                Cùng Du lịch Bụi bắt đầu hành trình
+                                của riêng bạn.
+                            </p>
+
+                            <a
+                                href="#destinations"
+                                class="hero-button"
+                            >
+                                Bắt đầu hành trình
+                            </a>
+
+                        </div>
+
                     </div>
 
                 </div>
 
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#travelCarousel"
+                    data-bs-slide="prev"
+                >
 
-                <div class="col-md-4 stat-item">
+                    <span class="carousel-control-prev-icon"></span>
 
-                    <i class="bi bi-star-fill"></i>
+                    <span class="visually-hidden">
+                        Trước
+                    </span>
 
-                    <div>
-                        <strong>4.9/5</strong>
-                        <small>Đánh giá</small>
-                    </div>
+                </button>
+
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#travelCarousel"
+                    data-bs-slide="next"
+                >
+
+                    <span class="carousel-control-next-icon"></span>
+
+                    <span class="visually-hidden">
+                        Sau
+                    </span>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="intro">
+
+        <div class="container">
+
+            <div class="intro-content">
+
+                <div class="intro-label">
+                    VỀ DU LỊCH BỤI
+                </div>
+
+                <h2>
+                    Hành trình bắt đầu
+                    từ một bước chân
+                </h2>
+
+                <p>
+                    Chúng tôi mang đến những trải nghiệm du lịch
+                    thú vị, giúp bạn khám phá những vùng đất mới,
+                    gặp gỡ những con người mới và lưu giữ những
+                    khoảnh khắc đáng nhớ trên mỗi hành trình.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section
+        class="destinations"
+        id="destinations"
+    >
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span class="small-title">
+                        ĐIỂM ĐẾN
+                    </span>
+
+                    <h2>
+                        Khám phá những nơi
+                        bạn muốn đến
+                    </h2>
 
                 </div>
 
+                <p>
+                    Những địa điểm thú vị chờ
+                    bạn khám phá.
+                </p>
 
-                <div class="col-md-4 stat-item">
+            </div>
 
-                    <i class="bi bi-heart-fill"></i>
+            <div class="row g-4">
 
-                    <div>
-                        <strong>500+</strong>
-                        <small>Khách hàng</small>
-                    </div>
+                <div class="col-lg-4 col-md-6">
+
+                    <article class="destination-card">
+
+                        <div class="destination-image">
+
+                            <img
+                                src="img/11.jpg"
+                                alt="Điểm du lịch 1"
+                            >
+
+                        </div>
+
+                        <div class="destination-info">
+
+                            <h3>
+                                Điểm du lịch 1
+                            </h3>
+
+                            <p>
+                                Đây là địa điểm du lịch 1,
+                                chi tiết về điểm du lịch này
+                                các bạn có thể có được bằng
+                                cách liên lạc với chúng tôi
+                                trực tiếp qua điện thoại
+                                hoặc email.
+                            </p>
+
+                            <a href="contact.html">
+                                Khám phá
+                                <span>→</span>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+
+                    <article class="destination-card">
+
+                        <div class="destination-image">
+
+                            <img
+                                src="img/12.jpg"
+                                alt="Điểm du lịch 2"
+                            >
+
+                        </div>
+
+
+                        <div class="destination-info">
+
+                            <h3>
+                                Điểm du lịch 2
+                            </h3>
+
+                            <p>
+                                Đây là địa điểm du lịch 2,
+                                chi tiết về điểm du lịch này
+                                các bạn có thể có được bằng
+                                cách liên lạc với chúng tôi
+                                trực tiếp qua điện thoại
+                                hoặc email.
+                            </p>
+
+                            <a href="contact.html">
+                                Khám phá
+                                <span>→</span>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+
+                    <article class="destination-card">
+
+                        <div class="destination-image">
+
+                            <img
+                                src="img/13.jpg"
+                                alt="Điểm du lịch 3"
+                            >
+
+                        </div>
+
+
+                        <div class="destination-info">
+
+                            <h3>
+                                Điểm du lịch 3
+                            </h3>
+
+                            <p>
+                                Đây là địa điểm du lịch 3,
+                                chi tiết về điểm du lịch này
+                                các bạn có thể có được bằng
+                                cách liên lạc với chúng tôi
+                                trực tiếp qua điện thoại
+                                hoặc email.
+                            </p>
+
+                            <a href="contact.html">
+                                Khám phá
+                                <span>→</span>
+                            </a>
+
+                        </div>
+
+                    </article>
 
                 </div>
 
@@ -408,577 +473,83 @@
 
         </div>
 
-    </div>
+    </section>
 
-</section>
+    <section class="contact-section">
 
+        <div class="container">
 
+            <div class="contact-inner">
 
-<!-- =====================================================
-     GIỚI THIỆU
-===================================================== -->
+                <div>
 
-<section
-    id="gioithieu"
-    class="intro-section"
->
+                    <span>
+                        HÀNH TRÌNH CỦA BẠN
+                    </span>
 
-    <div class="container">
+                    <h2>
+                        Hãy liên hệ với chúng tôi!
+                    </h2>
 
-        <div class="row align-items-center g-5">
-
-
-            <div class="col-lg-6">
-
-                <p class="section-label">
-                    VỀ DU LỊCH BỤI
-                </p>
-
-                <h2 class="section-title">
-                    Hành trình của bạn,
-                    <span>câu chuyện của riêng bạn.</span>
-                </h2>
-
-                <p class="section-text">
-                    Chúng tôi mang đến những trải nghiệm
-                    du lịch thú vị, giúp bạn khám phá những
-                    địa điểm mới, gặp gỡ những con người mới
-                    và lưu giữ những kỷ niệm đáng nhớ.
-                </p>
-
-                <p class="section-text">
-                    Không chỉ đơn giản là một chuyến đi,
-                    đó là hành trình khám phá chính mình.
-                </p>
+                </div>
 
 
-                <a
-                    href="#diadiem"
-                    class="btn btn-primary custom-button"
-                >
-                    Bắt đầu khám phá
-                    <i class="bi bi-arrow-right"></i>
+                <a href="contact.html" class="contact-button">
+                    Liên hệ ngay
+                    <i class="bi bi-telephone"></i>
                 </a>
 
             </div>
 
-
-            <div class="col-lg-6">
-
-                <div class="feature-list">
-
-
-                    <div class="feature-item">
-
-                        <div class="feature-icon">
-                            <i class="bi bi-compass"></i>
-                        </div>
-
-                        <div>
-
-                            <h4>
-                                Khám phá
-                            </h4>
-
-                            <p>
-                                Đặt chân đến những vùng đất mới
-                                và khám phá những điều thú vị.
-                            </p>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="feature-item">
-
-                        <div class="feature-icon">
-                            <i class="bi bi-camera"></i>
-                        </div>
-
-                        <div>
-
-                            <h4>
-                                Trải nghiệm
-                            </h4>
-
-                            <p>
-                                Tận hưởng những khoảnh khắc
-                                đáng nhớ trên mỗi hành trình.
-                            </p>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="feature-item">
-
-                        <div class="feature-icon">
-                            <i class="bi bi-people"></i>
-                        </div>
-
-                        <div>
-
-                            <h4>
-                                Kết nối
-                            </h4>
-
-                            <p>
-                                Gặp gỡ những người bạn mới
-                                và cùng nhau tạo nên kỷ niệm.
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
         </div>
 
-    </div>
+    </section>
 
-</section>
 
 
+    <!-- ================= FOOTER ================= -->
 
-<!-- =====================================================
-     ĐIỂM ĐẾN
-===================================================== -->
+    <footer class="footer">
 
-<section
-    id="diadiem"
-    class="destination-section"
->
+        <div class="container">
 
-    <div class="container">
-
-
-        <div class="section-heading">
-
-            <div>
-
-                <p class="section-label">
-                    DESTINATIONS
-                </p>
-
-                <h2 class="section-title">
-                    Điểm đến nổi bật
-                </h2>
-
-            </div>
-
-            <p>
-                Những nơi tuyệt vời đang chờ bạn khám phá.
-            </p>
-
-        </div>
-
-
-        <div class="row g-4">
-
-
-            <!-- Card 1 -->
-
-            <div class="col-lg-4 col-md-6">
-
-                <div class="travel-card">
-
-                    <div class="card-image">
-
-                        <img
-                            src="img/11.jpg"
-                            alt="Điểm du lịch 1"
-                        >
-
-                        <div class="image-overlay">
-
-                            <span>
-                                ĐIỂM ĐẾN 01
-                            </span>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="card-content">
-
-                        <div class="card-icon">
-                            <i class="bi bi-geo-alt-fill"></i>
-                        </div>
-
-                        <h3>
-                            Điểm du lịch 1
-                        </h3>
-
-                        <p>
-                            Đây là địa điểm du lịch 1,
-                            chi tiết về điểm du lịch này
-                            các bạn có thể có được bằng cách
-                            liên lạc với chúng tôi trực tiếp
-                            qua điện thoại hoặc email.
-                        </p>
-
-                        <a
-                            href="#"
-                            class="card-link"
-                        >
-                            Khám phá
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- Card 2 -->
-
-            <div class="col-lg-4 col-md-6">
-
-                <div class="travel-card">
-
-                    <div class="card-image">
-
-                        <img
-                            src="img/12.jpg"
-                            alt="Điểm du lịch 2"
-                        >
-
-                        <div class="image-overlay">
-
-                            <span>
-                                ĐIỂM ĐẾN 02
-                            </span>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="card-content">
-
-                        <div class="card-icon">
-                            <i class="bi bi-geo-alt-fill"></i>
-                        </div>
-
-                        <h3>
-                            Điểm du lịch 2
-                        </h3>
-
-                        <p>
-                            Đây là địa điểm du lịch 2,
-                            chi tiết về điểm du lịch này
-                            các bạn có thể có được bằng cách
-                            liên lạc với chúng tôi trực tiếp
-                            qua điện thoại hoặc email.
-                        </p>
-
-                        <a
-                            href="#"
-                            class="card-link"
-                        >
-                            Khám phá
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- Card 3 -->
-
-            <div class="col-lg-4 col-md-6">
-
-                <div class="travel-card">
-
-                    <div class="card-image">
-
-                        <img
-                            src="img/13.jpg"
-                            alt="Điểm du lịch 3"
-                        >
-
-                        <div class="image-overlay">
-
-                            <span>
-                                ĐIỂM ĐẾN 03
-                            </span>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="card-content">
-
-                        <div class="card-icon">
-                            <i class="bi bi-geo-alt-fill"></i>
-                        </div>
-
-                        <h3>
-                            Điểm du lịch 3
-                        </h3>
-
-                        <p>
-                            Đây là địa điểm du lịch 3,
-                            chi tiết về điểm du lịch này
-                            các bạn có thể có được bằng cách
-                            liên lạc với chúng tôi trực tiếp
-                            qua điện thoại hoặc email.
-                        </p>
-
-                        <a
-                            href="#"
-                            class="card-link"
-                        >
-                            Khám phá
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     WHY CHOOSE US
-===================================================== -->
-
-<section
-    id="why"
-    class="why-section"
->
-
-    <div class="container">
-
-        <div class="text-center">
-
-            <p class="section-label">
-                WHY CHOOSE US
-            </p>
-
-            <h2 class="section-title">
-                Vì sao nên chọn chúng tôi?
-            </h2>
-
-            <p class="why-description">
-                Mỗi chuyến đi đều được tạo nên
-                từ những trải nghiệm đáng nhớ.
-            </p>
-
-        </div>
-
-
-        <div class="row g-4 mt-4">
-
-
-            <div class="col-lg-3 col-md-6">
-
-                <div class="why-card">
-
-                    <div class="why-icon">
-                        <i class="bi bi-airplane"></i>
-                    </div>
-
-                    <h4>
-                        Hành trình linh hoạt
-                    </h4>
-
-                    <p>
-                        Lựa chọn hành trình phù hợp
-                        với nhu cầu của bạn.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <div class="col-lg-3 col-md-6">
-
-                <div class="why-card">
-
-                    <div class="why-icon">
-                        <i class="bi bi-globe-asia-australia"></i>
-                    </div>
-
-                    <h4>
-                        Điểm đến đa dạng
-                    </h4>
-
-                    <p>
-                        Khám phá nhiều địa điểm
-                        thú vị và hấp dẫn.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <div class="col-lg-3 col-md-6">
-
-                <div class="why-card">
-
-                    <div class="why-icon">
-                        <i class="bi bi-shield-check"></i>
-                    </div>
-
-                    <h4>
-                        An toàn
-                    </h4>
-
-                    <p>
-                        Luôn đặt sự an toàn và
-                        hài lòng của khách hàng.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <div class="col-lg-3 col-md-6">
-
-                <div class="why-card">
-
-                    <div class="why-icon">
-                        <i class="bi bi-headset"></i>
-                    </div>
-
-                    <h4>
-                        Hỗ trợ tận tâm
-                    </h4>
-
-                    <p>
-                        Đồng hành cùng bạn trong
-                        suốt hành trình.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     CTA
-===================================================== -->
-
-<section
-    id="lienhe"
-    class="cta-section"
->
-
-    <div class="container">
-
-        <div class="cta-box">
-
-            <div>
-
-                <p class="cta-label">
-                    READY TO TRAVEL?
-                </p>
-
-                <h2>
-                    Sẵn sàng cho chuyến đi
-                    tiếp theo?
-                </h2>
-
-                <p>
-                    Đừng chỉ mơ về chuyến đi.
-                    Hãy bắt đầu nó ngay hôm nay.
-                </p>
-
-            </div>
-
-
-            <a
-                href="#"
-                class="btn btn-light cta-button"
-            >
-                Lên đường ngay
-                <i class="bi bi-arrow-right"></i>
-            </a>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- =====================================================
-     FOOTER
-===================================================== -->
-
-<footer class="footer">
-
-    <div class="container">
-
-        <div class="row g-5">
-
-
-            <div class="col-lg-5">
+            <div class="footer-top">
 
                 <div class="footer-brand">
 
                     <img
                         src="img/logo.jpg"
-                        alt="Logo"
+                        alt="Du lịch Bụi"
                     >
 
-                    <span>
-                        DU LỊCH BỤI
-                    </span>
+                    <p>
+                        Khám phá thế giới theo cách
+                        của riêng bạn.
+                    </p>
 
                 </div>
 
-                <p class="footer-text">
-                    Đi để trải nghiệm.
-                    Đi để khám phá.
-                    Đi để trưởng thành.
-                </p>
 
+                <div class="footer-menu">
 
-                <div class="socials">
-
-                    <a href="#">
-                        <i class="bi bi-facebook"></i>
+                    <a href="index.html">
+                        Trang chủ
                     </a>
 
-                    <a href="#">
-                        <i class="bi bi-instagram"></i>
+                    <a href="service.html">
+                        Dịch vụ
                     </a>
 
-                    <a href="#">
-                        <i class="bi bi-youtube"></i>
+                    <a href="about.html">
+                        Về chúng tôi
+                    </a>
+
+                    <a href="faq.html">
+                        FAQ
+                    </a>
+
+                    <a href="contact.html">
+                        Liên hệ
                     </a>
 
                 </div>
@@ -986,126 +557,30 @@
             </div>
 
 
-            <div class="col-lg-2 col-md-4">
-
-                <h5>
-                    Khám phá
-                </h5>
-
-                <a href="#">
-                    Trang chủ
-                </a>
-
-                <a href="#gioithieu">
-                    Giới thiệu
-                </a>
-
-                <a href="#diadiem">
-                    Điểm đến
-                </a>
-
-            </div>
-
-
-            <div class="col-lg-2 col-md-4">
-
-                <h5>
-                    Hỗ trợ
-                </h5>
-
-                <a href="#">
-                    Dịch vụ
-                </a>
-
-                <a href="#">
-                    FAQ
-                </a>
-
-                <a href="#">
-                    Điều khoản
-                </a>
-
-            </div>
-
-
-            <div class="col-lg-3 col-md-4">
-
-                <h5>
-                    Liên hệ
-                </h5>
+            <div class="footer-bottom">
 
                 <p>
-                    <i class="bi bi-telephone"></i>
-                    0123 456 789
+                    © Bản quyền thuộc về Công ty Du lịch Bụi.
                 </p>
 
                 <p>
-                    <i class="bi bi-envelope"></i>
-                    info@dulichbui.vn
-                </p>
-
-                <p>
-                    <i class="bi bi-geo-alt"></i>
-                    Cần Thơ, Việt Nam
+                    Travel • Explore • Experience
                 </p>
 
             </div>
 
         </div>
 
-
-        <hr>
-
-
-        <div class="copyright">
-
-            <span>
-                © 2025 Du lịch Bụi.
-                Bản quyền thuộc về Công ty Du lịch Bụi.
-            </span>
-
-            <span>
-                Made with ❤️ in Vietnam
-            </span>
-
-        </div>
-
-    </div>
-
-</footer>
+    </footer>
 
 
 
-<!-- Bootstrap JS -->
+    <!-- Bootstrap JS -->
 
-<script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-></script>
-
-
-<!-- Navbar scroll -->
-
-<script>
-
-window.addEventListener("scroll", function () {
-
-    const navbar =
-        document.getElementById("mainNavbar");
-
-    if (window.scrollY > 80) {
-
-        navbar.classList.add("scrolled");
-
-    } else {
-
-        navbar.classList.remove("scrolled");
-
-    }
-
-});
-
-</script>
-
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    ></script>
 
 </body>
+
 </html>
